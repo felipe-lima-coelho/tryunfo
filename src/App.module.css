@@ -1,0 +1,142 @@
+.headerPage {
+  align-items: center;
+  background-color: var(--gray-600);
+  display: flex;
+  justify-content: center;
+}
+
+.headerPage img {
+  margin: 0.875rem 0;
+  width: 4rem;
+}
+
+.wrapper {
+  align-content: center;
+  align-items: start;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.sideBar {
+  align-items: center;
+  background-color: var(--gray-700);
+  border-radius: 8px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 2fr 1fr;
+  padding: 1rem;
+}
+
+.wrapper main {
+  background-color: var(--gray-700);
+  border-radius: 8px;
+  height: 34.95rem;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.wrapper main header {
+  background-color: var(--gray-600);
+  border-bottom: 0.063rem solid var(--gray-400);
+  margin: 0 -1rem 1rem -1rem;
+  padding: 1rem;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 3.75rem;
+}
+
+.containerSearchName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSearchName strong {
+  margin-left: 0.4rem;
+}
+
+.filterNameCard {
+  background-color: var(--gray-900);
+  border: 0;
+  border-radius: 4px;
+  color: var(--gray-300);
+  font-size: 0.875rem;
+  line-height: 1.2;
+  padding: 0.3rem;
+  margin-left: 0.875rem;
+  width: 10.25rem;
+}
+
+.containerFilterTrunfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.filterTrunfo {
+  appearance: none;
+  border: 0.125rem solid var(--gray-400);
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 1.25rem;
+  margin-top: 0;
+  outline: none;
+  width: 1.25rem;
+}
+
+.filterTrunfo:checked {
+  background-color: var(--green-400);
+  border: 0.125rem solid var(--white);
+  display: inline-block;
+}
+
+.cardsContainerMain {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 450px;
+}
+
+.cardsContainerMain::-webkit-scrollbar {
+  width: 10px;
+}
+
+.cardsContainerMain::-webkit-scrollbar-track {
+  background-color: var(--gray-800);
+}
+
+.cardsContainerMain::-webkit-scrollbar-thumb {
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+.cardsContainerMain::-webkit-scrollbar-thumb:hover {
+  background-color: var(--gray-400);
+}
+
+@media screen and ( max-width : 540px ) {
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .sideBar {
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper main {
+    height: 48.95rem;
+  }
+}

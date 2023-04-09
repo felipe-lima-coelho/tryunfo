@@ -1,0 +1,33 @@
+.noDisplay {
+  display: none;
+}
+
+.messageHasTrunfo {
+  display: block;
+}
+
+.trunfoInputCheck {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.squareBtn {
+  appearance: none;
+  border: 0.125rem solid var(--gray-400);
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  flex: 1;
+  height: 1.25rem;
+  margin-top: 0;
+  outline: none;
+  width: 1.25rem;
+}
+
+.squareBtn:checked {
+  background-color: var(--green-400);
+  border: 0.125rem solid var(--white);
+  display: inline-block;
+}
