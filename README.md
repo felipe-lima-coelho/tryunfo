@@ -2,7 +2,7 @@
 
 <strong>Boas-vindas ao repositório do projeto Tryunfo!</strong>
 
-Este é um de jogo de Trunfo construído em React. O objetivo do jogo é vencer o adversário em cada rodada selecionando uma carta com uma característica mais alta do que a do adversário.
+Este é um jogo de Trunfo construído em React. O objetivo do jogo é vencer o adversário em cada rodada selecionando uma carta com uma característica mais alta do que a do adversário.
 
 -> Apenas é possível criar as cartas e exibir o baralho, <strong>a funcionalidade para "jogar" ainda está em desenvolvimento</strong>.
 
